@@ -1,13 +1,15 @@
 //global variables and constants for DOM elements
 let comptuterChoice
 const opponentChoice = document.getElementById("opponent-choice")
+let playerChoice
+const choice = document.getElementById("player-choice")
 
 document.addEventListener("DOMContentLoaded",function(){
     let buttons = this.getElementsByTagName("button");
         for(let button of buttons){
             button.addEventListener("click",function(){
-                let choice = this.getAttribute("id");
-                alert(`you clicked ${choice}`);
+                playerChoice = this.getAttribute("id");
+                choice.innerHTML = playerChoice;
                 opponent()
             })
         }
