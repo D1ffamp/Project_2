@@ -1,14 +1,14 @@
-# Rock Paper Scissors Lizard Spock
-* A fun twist on the traditional Rock Paper Scissors game. 
+# Rock Paper Scissors
+* A rock paper scissors game. 
 
 ![Logo](docs/testing/responsive-design.png)
 
 # The Goal for this Project
 
-    The goal of this project is to entertain users while giving them a seemless experience. The project was inspired by Code Institue and their example projects.
+    The goal of this project is to provide a simple and fun rock,paper scissors game. The project was inspired by the  Code Institue and their example projects.
 
 # Live website
-A link to the live website can be found [here](https://joequigley1.github.io/Rock_Paper_Scissors_Liz_Spock_P2/).
+A link to the live website can be found [here]().
 
 # Table of Contents
 
@@ -19,7 +19,7 @@ A link to the live website can be found [here](https://joequigley1.github.io/Roc
     + [Requirements](#requirements)
     + [Design Choices](#design-choices)
      + [Fonts](#fonts)
-     + [Icons](#icons)
+     
     + [Colours](#colours)
  + [Features](#features)
     + [Existing Features](#existing-features)
@@ -41,21 +41,18 @@ A link to the live website can be found [here](https://joequigley1.github.io/Roc
 
 + The game should be easy to navigate and use on all platforms. 
 + The game should be fun and competitive.
-+ The game should look modern and intuitive.
 + The game should work without any glitches or faults.
 
 ## User Stories
 
 + As a user, I want to be engaged in the game and feel absorbed by the UI and gameplay.
-+ As a user, I want to see the results after the game is finished.
-+ As a user, I want to play a game intuitively.
-+ As a user, I want the game to be sleek and modern in design.
++ As a user, I want to play a game with little inscruction.
+
 
 
 ## Site Owner's Goals
 
 + To create a working game that is fun and easy to use.
-+ To create a sleek and well designed game.
 + To write code that follows best practice.
 + The code can be easily understood and adapted.
 
