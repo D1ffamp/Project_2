@@ -35,3 +35,22 @@ footer {
     
     
 }
+
+
+/*game area*/
+.choice {
+    
+    text-align: center;
+    
+
+}
+
+#buttons {
+    text-align: center;
+   
+}
+
+#score-area {
+    text-align: center;
+}
+
