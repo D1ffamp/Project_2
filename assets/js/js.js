@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded",function(){
             button.addEventListener("click",function(){
                 playerChoice = this.getAttribute("id");
                 choice.innerHTML = playerChoice;
-                opponent()
-                runGame()
+                opponent();
+                runGame();
             })
         }
 })
@@ -42,26 +42,32 @@ function runGame(){
 
     if(computerChoice === "rock" && playerChoice === "paper"){
         result = "You win!"
+        incrementPlayerScore();
     }
     
     if(computerChoice === "rock" && playerChoice === "scissors"){
         result = "You lose!"
+        incrementOpponentScore();
     }
 
     if(computerChoice === "scissors" && playerChoice === "rock"){
         result = "You win!"
+        incrementPlayerScore();
     }
 
     if(computerChoice === "scissors" && playerChoice === "paper"){
         result = "You lose!"
+        incrementOpponentScore();
     }
 
     if(computerChoice === "paper" && playerChoice === "scissors"){
         result = "You win!"
+        incrementPlayerScore();
     }
 
     if(computerChoice === "paper" && playerChoice === "rock"){
         result = "You lose!"
+        incrementOpponentScore();
     }
 
     resultDisplay.innerHTML = result
