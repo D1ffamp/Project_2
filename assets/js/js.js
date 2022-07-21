@@ -6,7 +6,9 @@ const choice = document.getElementById("player-choice")
 let result
 const resultDisplay =document.getElementById("result")
 
-
+/**
+ * Added eventlister for the buttons
+ */
 document.addEventListener("DOMContentLoaded",function(){
     let buttons = this.getElementsByTagName("button");
         for(let button of buttons){
@@ -19,6 +21,9 @@ document.addEventListener("DOMContentLoaded",function(){
         }
 })
 
+/**
+ * function to determine the opponents choice
+ */
 function opponent(){
     const randomNumber = Math.floor(Math.random()*3) +1
 
@@ -34,6 +39,10 @@ function opponent(){
 
     opponentChoice.innerHTML = computerChoice
 }
+
+/**
+ * function to determine win,lose or draw conditions
+ */
 
 function runGame(){
     if(computerChoice === playerChoice){
@@ -73,13 +82,18 @@ function runGame(){
     resultDisplay.innerHTML = result
 
 }
-
+ /**
+  * read players' current score for the dom and update
+  */
 function incrementPlayerScore(){
 
     let playerScore = parseInt(document.getElementById("player-score").innerText);
     document.getElementById("player-score").innerText = ++playerScore;
 }
 
+/**
+ * read opponents current score and update if condtions are met
+ */
 function incrementOpponentScore(){
 
     let opponentScore = parseInt(document.getElementById("opponent-score").innerText);
